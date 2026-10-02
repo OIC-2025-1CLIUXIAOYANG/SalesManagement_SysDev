@@ -1,0 +1,15 @@
+﻿<Window x:Class="SalesManSys.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesManSys"
+        mc:Ignorable="d"
+        Title="login" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="261,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="185" Height="28"/>
+        <TextBox HorizontalAlignment="Left" Margin="261,173,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="185" Height="32"/>
+        <Button Content="登録" HorizontalAlignment="Left" Margin="465,173,0,0" VerticalAlignment="Top" Height="78" Width="100" FontSize="26"/>
+
+    </Grid>
+</Window>

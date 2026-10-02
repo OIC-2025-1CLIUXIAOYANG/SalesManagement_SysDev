@@ -1,0 +1,23 @@
+﻿<Window x:Class="SalesManSys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesManSys"
+        mc:Ignorable="d"
+        Title="ポータル" Height="1080" Width="1920    ">
+    <Grid>
+        <Button x:Name="Butt_CustMan" Content="顧客管理" HorizontalAlignment="Left" Margin="169,167,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_CustMan_Click"/>
+        <Button x:Name="Butt_PrudMan" Content="商品管理" HorizontalAlignment="Left" Margin="608,167,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_PrudMan_Click"/>
+        <Button x:Name="Butt_InveMan" Content="在庫管理" HorizontalAlignment="Left" Margin="1055,167,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_InveMan_Click"/>
+        <Button x:Name="Butt_EmplMan" Content="社員管理" HorizontalAlignment="Left" Margin="1477,167,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_EmplMan_Click"/>
+        <Button x:Name="Butt_SalesMan" Content="売上管理" HorizontalAlignment="Left" Margin="169,431,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_SalesMan_Click"/>
+        <Button x:Name="Butt_OrdeMan" Content="受注管理" HorizontalAlignment="Left" Margin="608,431,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_OrdeMan_Click"/>
+        <Button x:Name="Butt_CustOrdeMan" Content="注文管理" HorizontalAlignment="Left" Margin="1055,431,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_CustOrdeMan_Click"/>
+        <Button x:Name="Butt_PurcOrdeMan" Content="発注管理" HorizontalAlignment="Left" Margin="1477,431,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_PurcOrdeMan_Click"/>
+        <Button x:Name="Butt_StockReceiMan" Content="入庫管理" HorizontalAlignment="Left" Margin="169,700,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_StockReceiMan_Click"/>
+        <Button x:Name="Butt_StockIssueMan" Content="出庫管理" HorizontalAlignment="Left" Margin="608,700,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_StockIssueMan_Click"/>
+        <Button x:Name="Butt_GoodsReceMan" Content="入荷管理" HorizontalAlignment="Left" Margin="1055,700,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_GoodsReceMan_Click"/>
+        <Button x:Name="Butt_ShipMan" Content="出荷管理" HorizontalAlignment="Left" Margin="1477,700,0,0" VerticalAlignment="Top" Height="160" Width="300" FontSize="36" Click="Butt_ShipMan_Click"/>
+    </Grid>
+</Window>

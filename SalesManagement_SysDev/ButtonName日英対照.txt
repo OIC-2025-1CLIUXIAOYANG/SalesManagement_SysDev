@@ -1,0 +1,12 @@
+﻿顧客管理Customer Management
+商品管理Product Management
+在庫管理Inventory Management
+社員管理Employee Management
+売上管理Sales Management
+受注管理Order Management
+注文管理Customer Order Management
+発注管理Purchase Order Management
+入庫管理Stock Receipt Management
+出庫管理Stock Issue Management
+入荷管理Goods Receiving Management
+出荷管理Shipping Management
